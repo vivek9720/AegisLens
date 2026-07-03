@@ -18,6 +18,16 @@ name = "aegislens-core"
 version = "0.1.0"
 
 [[package]]
+name = "aegislens-fuzz"
+version = "0.1.0"
+dependencies = [
+ "aegislens-ioc",
+ "aegislens-packet",
+ "aegislens-policy",
+ "aegislens-rules",
+]
+
+[[package]]
 name = "aegislens-ioc"
 version = "0.1.0"
 dependencies = [

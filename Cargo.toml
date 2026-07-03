@@ -6,6 +6,7 @@ members = [
     "crates/rules",
     "crates/policy",
     "crates/cli",
+    "fuzz",
 ]
 resolver = "2"
 
