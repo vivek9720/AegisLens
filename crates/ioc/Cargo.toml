@@ -1,0 +1,12 @@
+[package]
+name = "aegislens-ioc"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "aegislens_ioc"
+path = "src/lib.rs"
+
+[dependencies]
+aegislens-core = { path = "../core" }
+aegislens-packet = { path = "../packet" }

@@ -1,0 +1,15 @@
+[workspace]
+members = [
+    "crates/core",
+    "crates/packet",
+    "crates/ioc",
+    "crates/rules",
+    "crates/policy",
+    "crates/cli",
+]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+license = "Apache-2.0"
+rust-version = "1.70"

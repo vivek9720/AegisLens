@@ -1,0 +1,27 @@
+[package]
+name = "aegislens-fuzz"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+aegislens-packet = { path = "../crates/packet" }
+aegislens-ioc = { path = "../crates/ioc" }
+aegislens-rules = { path = "../crates/rules" }
+aegislens-policy = { path = "../crates/policy" }
+
+[[bin]]
+name = "packet_fuzzer"
+path = "fuzz_targets/packet_fuzzer.rs"
+
+[[bin]]
+name = "ioc_fuzzer"
+path = "fuzz_targets/ioc_fuzzer.rs"
+
+[[bin]]
+name = "rules_fuzzer"
+path = "fuzz_targets/rules_fuzzer.rs"
+
+[[bin]]
+name = "policy_fuzzer"
+path = "fuzz_targets/policy_fuzzer.rs"

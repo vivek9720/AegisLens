@@ -1,0 +1,1 @@
+chain input ip saddr 198.51.100.0/24 tcp dport 22 drop

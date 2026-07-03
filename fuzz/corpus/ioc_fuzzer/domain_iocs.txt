@@ -1,0 +1,2 @@
+phishing example.net
+block bad.example.org

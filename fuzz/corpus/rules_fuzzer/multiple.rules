@@ -1,0 +1,2 @@
+alert tcp any any -> any 443 (msg:"tls"; sid:1005; rev:1;)
+alert udp any any -> any 123 (msg:"ntp"; sid:1006; rev:1;)

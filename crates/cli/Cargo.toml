@@ -1,0 +1,11 @@
+[package]
+name = "aegislens-cli"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+aegislens-core = { path = "../core" }
+aegislens-packet = { path = "../packet" }
+aegislens-ioc = { path = "../ioc" }
+aegislens-rules = { path = "../rules" }
+aegislens-policy = { path = "../policy" }

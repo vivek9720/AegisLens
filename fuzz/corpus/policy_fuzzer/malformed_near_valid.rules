@@ -1,0 +1,2 @@
+-A INPUT -p tcp --dport nope -j ACCEPT
+chain input tcp dport xx drop
